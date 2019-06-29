@@ -1,0 +1,11 @@
+swagger: '2.0'
+definitions:
+  Timestamp:
+    title: Timestamp
+    description: The timestamp when the event occured
+    type: object
+    properties:
+      timestamp:
+        type: string
+        format: date-time
+        description: The timestamp of the event
